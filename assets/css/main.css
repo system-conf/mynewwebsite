@@ -971,7 +971,7 @@ h6 {
 
 .services .service-item i {
   background: var(--color-primary);
-  color: #fff;
+  color: #000;
   font-size: 24px;
   transition: 0.3s;
   display: flex;
@@ -1010,11 +1010,11 @@ h6 {
 
 .services .service-item:hover h4 a,
 .services .service-item:hover p {
-  color: #fff;
+  color: #000000;
 }
 
 .services .service-item:hover i {
-  background: #fff;
+  background: #000;
   color: var(--color-primary);
 }
 
@@ -1352,6 +1352,9 @@ h6 {
   font-weight: bold;
 }
 
+.mybold{
+  font-weight: bold;
+}
 .mainContainer a:hover{
   color: #000;
 }
